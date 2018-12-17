@@ -1,0 +1,24 @@
+{
+  "name": "words",
+  "version": "0.0.1",
+  "description": "Access Oxford Dictionary using your CLI. Search for English word Synonyms, Actonyms, Examples, and Definitions right from your CLI. For fun, play a guessing game as well.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebiryaniboy/words-cli.git"
+  },
+  "author": "Himakar Reddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thebiryaniboy/words-cli/issues"
+  },
+  "homepage": "https://github.com/thebiryaniboy/words-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "request": "^2.88.0"
+  }
+}
