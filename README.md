@@ -4,8 +4,6 @@ Access Oxford Dictionary using your CLI. Search for English word Synonyms, Acton
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
 ```bash
 git clone https://github.com/thebiryaniboy/words-cli.git YOUR_PROJECT_NAME
 ```
