@@ -13,14 +13,32 @@ git clone https://github.com/thebiryaniboy/words-cli.git YOUR_PROJECT_NAME
 First create a developer account with [Oxford Dictionary](https://developer.oxforddictionaries.com). Generate APP_ID and APP_KEY.
 Set APP_ID and APP_KEY to process env.
 
+From UNIX
+
+```
+export APP_ID='YOUR_ID'
+export APP_KEY='YOUR_KEY'
+```
+From WINDOWS
+
 ```
 SET APP_ID='YOUR_ID'
 SET APP_KEY='YOUR_KEY'
 ```
+From POWERSHELL
+
+```
+$env:APP_ID='YOUR_ID'
+$env:APP_KEY='YOUR_KEY'
+```
+
 ## Usage
 
 ```
-Node app -a|--a
+node app -a|--ant WORD // 'Search for Antonyms'
+node app -s|--syn WORD // 'Search for Synonyms'
+node app -e|--ex WORD // 'Search for Examples'
+node app -d|--def WORD // 'Search for Definitions'
 ```
 
 
