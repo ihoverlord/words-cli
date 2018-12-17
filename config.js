@@ -7,7 +7,7 @@ const oxford = {
 readCredentials = (obj) => {
     if (!obj.APP_ID || !obj.APP_KEY) {
         console.log('')
-        console.log('APP_ID or APP_KEY or Both are missing from credentials.json')
+        console.log('Error : APP_ID or APP_KEY or Both are missing from credentials.json')
         process.exit()
     } else {
         oxford.APP_ID = obj.APP_ID
@@ -26,7 +26,7 @@ module.exports = {
             readCredentials(obj)
         } catch (error) {
             console.log('')
-            console.log('Please add "credentials.json" file width Oxford API Keys to the project folder before we continue any further.')
+            console.log('Error : Please add "credentials.json" file with Oxford API Keys to the project folder before we continue any further.')
             process.exit()
         }
     }  
